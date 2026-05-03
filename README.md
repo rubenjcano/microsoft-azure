@@ -12,12 +12,15 @@ Personal notes and code examples from my Azure learning journey as a Data & Clou
 
 ## 📌 Progress
 
-### Core Concepts
-- [x] [Cloud concepts — what is cloud, service models, shared responsibility](core/cloud-concepts.md)
-- [ ] Resource groups, subscriptions and regions
-- [ ] IAM — roles, service principals, managed identities
-- [ ] Azure Storage — Blob, ADLS Gen2
-- [ ] Networking — VNets, private endpoints
+### Core Concepts — AZ-900 Fundamentals Series
+- [x] [Part 1 — Cloud concepts: what is cloud, service models, shared responsibility](core/cloud-concepts.md)
+- [x] [Part 2 — Azure architecture and services: compute, networking, storage, identity](core/azure-architecture-services.md)
+- [x] [Part 3 — Azure management and governance: cost, policy, monitoring, IaC](core/azure-management-governance.md)
+- [x] [Part 4 — Guided projects: 8 hands-on exercises to practice Azure skills](core/azure-guided-projects.md)
+- [ ] Resource groups, subscriptions and regions (deep dive)
+- [ ] IAM — roles, service principals, managed identities (deep dive)
+- [ ] Azure Storage — Blob, ADLS Gen2 (deep dive)
+- [ ] Networking — VNets, private endpoints (deep dive)
 
 ### Azure Data Factory
 - [ ] Pipelines, activities and triggers
