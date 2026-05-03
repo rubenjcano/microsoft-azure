@@ -1,4 +1,4 @@
-# ☁️ Azure Notes
+# ☁️ Microsoft Azure Notes
 
 Personal notes and code examples from my Azure learning journey as a Data & Cloud Engineer.
 
@@ -10,65 +10,73 @@ Personal notes and code examples from my Azure learning journey as a Data & Clou
 
 ---
 
+## 📁 Folder Structure
+
+```
+microsoft-azure/
+├── README.md
+├── az-900-fundamentals/
+│   └── microsoft-learn/
+├── dp-900-data-fundamentals/
+│   └── microsoft-learn/
+├── ai-900-ai-fundamentals/
+│   └── microsoft-learn/
+├── dp-203-data-engineer/
+│   └── microsoft-learn/
+└── dp-700-fabric-data-engineer/
+    └── microsoft-learn/
+```
+
+---
+
 ## 📌 Progress
 
-### Core Concepts — AZ-900 Fundamentals Series
-- [x] [Part 1 — Cloud concepts: what is cloud, service models, shared responsibility](core/cloud-concepts.md)
-- [x] [Part 2 — Azure architecture and services: compute, networking, storage, identity](core/azure-architecture-services.md)
-- [x] [Part 3 — Azure management and governance: cost, policy, monitoring, IaC](core/azure-management-governance.md)
-- [x] [Part 4 — Guided projects: 8 hands-on exercises to practice Azure skills](core/azure-guided-projects.md)
-- [ ] Resource groups, subscriptions and regions (deep dive)
-- [ ] IAM — roles, service principals, managed identities (deep dive)
-- [ ] Azure Storage — Blob, ADLS Gen2 (deep dive)
-- [ ] Networking — VNets, private endpoints (deep dive)
+### ![AZ-900](https://img.shields.io/badge/AZ--900-Fundamentals-0078D4?style=flat&logo=microsoft-azure&logoColor=white) Azure Fundamentals
 
-### Azure Data Factory
-- [ ] Pipelines, activities and triggers
-- [ ] Linked services and datasets
-- [ ] Integration runtimes
-- [ ] Parameterization and dynamic content
-- [ ] CI/CD with Azure DevOps
-- [ ] Monitoring and alerting
-
-### Azure Databricks
-- [ ] Clusters — all-purpose vs job clusters
-- [ ] Notebooks and magic commands
-- [ ] Delta Lake — ACID transactions, time travel
-- [ ] Unity Catalog — governance and lineage
-- [ ] Databricks workflows
-- [ ] Performance tuning — caching and partitioning
-
-### Microsoft Fabric
-- [ ] Fabric architecture overview
-- [ ] Lakehouse vs Warehouse
-- [ ] OneLake and shortcuts
-- [ ] Dataflows Gen2
-- [ ] Fabric pipelines vs ADF pipelines
-- [ ] Real-time analytics with Eventhouse
-
-### Architecture Patterns
-- [ ] Medallion architecture — Bronze / Silver / Gold
-- [ ] ELT vs ETL in Azure
-- [ ] Lambda vs Kappa architecture
-- [ ] Data mesh principles in Azure
+- [x] [Part 1 — Cloud concepts: what is cloud, service models, shared responsibility](az-900-fundamentals/microsoft-learn/cloud-concepts.md)
+- [x] [Part 2 — Azure architecture and services: compute, networking, storage, identity](az-900-fundamentals/microsoft-learn/azure-architecture-services.md)
+- [x] [Part 3 — Azure management and governance: cost, policy, monitoring, IaC](az-900-fundamentals/microsoft-learn/azure-management-governance.md)
+- [x] [Part 4 — Guided projects: 8 hands-on exercises to practice Azure skills](az-900-fundamentals/microsoft-learn/azure-guided-projects.md)
 
 ---
 
-## 📁 Folder structure
+### ![DP-900](https://img.shields.io/badge/DP--900-Data%20Fundamentals-0078D4?style=flat&logo=microsoft-azure&logoColor=white) Azure Data Fundamentals
 
-```
-azure-notes/
-├── README.md
-├── core/
-├── adf/
-├── databricks/
-├── fabric/
-└── architecture/
-```
+- [ ] Explore core data concepts
+- [ ] Explore relational data in Azure
+- [ ] Explore non-relational data in Azure
+- [ ] Explore data analytics in Azure
 
 ---
 
-## 📝 Note template
+### ![AI-900](https://img.shields.io/badge/AI--900-AI%20Fundamentals-0078D4?style=flat&logo=microsoft-azure&logoColor=white) Azure AI Fundamentals
+
+- [ ] Explore AI concepts
+- [ ] Explore Azure AI services
+- [ ] Explore computer vision, NLP and generative AI
+
+---
+
+### ![DP-203](https://img.shields.io/badge/DP--203-Data%20Engineer%20Associate-0078D4?style=flat&logo=microsoft-azure&logoColor=white) Azure Data Engineer Associate
+
+- [x] [Get started with data engineering on Azure — roles, ETL vs ELT, ADLS Gen2](dp-203-data-engineer/microsoft-learn/get-started-data-engineering.md)
+- [x] [Implement a data streaming solution with Azure Stream Analytics — Event Hubs, window functions, Power BI](dp-203-data-engineer/microsoft-learn/azure-stream-analytics.md)
+- [ ] Integrate data with Azure Data Factory or Azure Synapse Analytics pipelines
+- [ ] Secure, monitor, and optimize data storage and data processing
+- [ ] Work with Delta Lake in Azure Databricks
+
+---
+
+### ![DP-700](https://img.shields.io/badge/DP--700-Fabric%20Data%20Engineer-742774?style=flat&logo=microsoft&logoColor=white) Fabric Data Engineer Associate
+
+- [ ] Get started with Microsoft Fabric
+- [ ] Implement a Lakehouse in Microsoft Fabric
+- [ ] Implement a data warehouse in Microsoft Fabric
+- [ ] Implement Real-Time Intelligence in Microsoft Fabric
+
+---
+
+## 📝 Note Template
 
 ```markdown
 # Topic
