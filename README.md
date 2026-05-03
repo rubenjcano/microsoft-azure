@@ -13,6 +13,7 @@ Personal notes and code examples from my Azure learning journey as a Data & Clou
 ## 📌 Progress
 
 ### Core Concepts
+- [x] [Cloud concepts — what is cloud, service models, shared responsibility](core/cloud-concepts.md)
 - [ ] Resource groups, subscriptions and regions
 - [ ] IAM — roles, service principals, managed identities
 - [ ] Azure Storage — Blob, ADLS Gen2
